@@ -3,9 +3,10 @@ import requests
 from PIL import Image
 import io
 import json
+import os
 
 # --- Configuration ---
-API_URL = "http://localhost:8000/" # IMPORTANT: Replace with your Cloud Run URL
+API_URL = os.getenv("API_URL")  # IMPORTANT: Replace with your Cloud Run URL
 
 st.set_page_config(page_title="Skin Cancer Detection", page_icon="🔬")
 
