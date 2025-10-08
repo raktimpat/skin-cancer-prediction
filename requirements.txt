@@ -1,0 +1,17 @@
+# torch CPU version
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+
+# Other dependencies
+pandas
+numpy
+Pillow
+joblib
+scikit-learn
+python-multipart
+
+# Backend
+requests
+fastapi
+uvicorn
